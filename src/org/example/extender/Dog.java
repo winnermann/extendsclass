@@ -4,6 +4,7 @@ package org.example.extender;
 //class Dog наследует все методы и все поля класса Animal
 
 public class Dog extends Animal {
+    //метод bark() есть только в классе Dog
     public void bark(){
         System.out.println("I am barking");
     }
